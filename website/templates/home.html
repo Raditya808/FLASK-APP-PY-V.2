@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tingkatkan Keterampilan Coding Anda dengan AI</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='home.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='swiper.js') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="logo">Landing Page</div>
+        <ul class="navbar-nav">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#features" class="nav-link">Fitur</a></li>
+          <li><a href="#tutorial" class="nav-link">Tutorial</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak</a></li>
+          <li><a href="/logout" class="btn-logout">Logout</a></li>
+        </ul>
+        <div class="github-icon">
+          <a href="https://github.com/username" target="_blank">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <h1>Tingkatkan Keterampilan Coding Anda dengan AI</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+        iaculis mauris. Sed eget commodo purus. Quisque vel vulputate lacus.
+        Curabitur id sapien a nunc viverra fermentum.
+      </p>
+      <a href="#features" class="btn-primary">Pelajari Lebih Lanjut</a>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <h2>Fitur Unggulan</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec
+        venenatis sem. Integer vel turpis nec sapien faucibus feugiat.
+      </p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>Code Assistance</h3>
+          <p>Mendapatkan bantuan kode instan dengan rekomendasi AI.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Belajar Otodidak</h3>
+          <p>Materi belajar disesuaikan dengan kecepatan dan kebutuhan Anda.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Proyek Praktek</h3>
+          <p>
+            Mengerjakan proyek langsung untuk memperdalam keterampilan coding
+            Anda.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tutorial Section -->
+    <section id="tutorial">
+      <h2>Tutorial Lengkap</h2>
+      <p>
+        Ikuti tutorial step-by-step untuk membangun aplikasi nyata dengan
+        bantuan AI. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+      <a href="#kontak" class="btn-primary">Mulai Sekarang</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontak">
+      <h2>Hubungi Kami</h2>
+      <p>Butuh bantuan atau punya pertanyaan? Kirimkan pesan kepada kami!</p>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Nama Anda" required />
+        <input type="email" placeholder="Email Anda" required />
+        <textarea rows="5" placeholder="Pesan Anda" required></textarea>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">© 2025 CodeAI. Semua hak dilindungi.</footer>
+  </body>
+</html>
