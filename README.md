@@ -1,6 +1,7 @@
 # Flask Login & Sign-Up Web App
 
 A simple Flask web application that supports user registration, login, and a basic frontend layout using HTML, CSS, and JavaScript.
+# UPDATE WITH CSS LOGIN AND SIGN UP WITH JAVASCRIPT
 
 ## 📁 Project Structure
 
