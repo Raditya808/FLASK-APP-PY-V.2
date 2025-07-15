@@ -27,6 +27,7 @@ FLASK LOGIN_SIGN-UP/
 │ ├── auth.py # Authentication routes
 │ ├── views.py # Main page views
 │ └── ApplicationRegisteredUser.py # User model or database operations
+    │ └── main.py
 
 
 ## 🚀 Features
