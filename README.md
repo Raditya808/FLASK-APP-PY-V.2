@@ -35,8 +35,6 @@ FLASK LOGIN_SIGN-UP/
 
 # pip install flask
 
-
-
 # Python 3.11.x
 # Flask 3.0.x
 # Werkzeug 3.0.x
