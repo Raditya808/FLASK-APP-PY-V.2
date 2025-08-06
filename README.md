@@ -31,6 +31,21 @@ FLASK LOGIN_SIGN-UP/
     │ └── main.py
 
 
+
+```bash
+pip install flask
+
+```bash
+python -m flask --version
+
+# Python 3.11.x
+# Flask 3.0.x
+# Werkzeug 3.0.x
+
+
+
+
+
 ## 🚀 Features
 
 - User Registration
