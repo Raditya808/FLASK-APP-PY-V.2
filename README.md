@@ -31,12 +31,11 @@ FLASK LOGIN_SIGN-UP/
     │ └── main.py
 
 
+# how to use ?
 
-```bash
-pip install flask
+```bash pip install flask
 
-```bash
-python -m flask --version
+
 
 # Python 3.11.x
 # Flask 3.0.x
