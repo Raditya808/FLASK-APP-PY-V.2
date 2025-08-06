@@ -33,8 +33,7 @@ FLASK LOGIN_SIGN-UP/
 
 # how to use ?
 
-```bash
-pip install flask
+# pip install flask
 
 
 
